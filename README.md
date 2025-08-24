@@ -20,8 +20,13 @@ This project explores artistic style transfer by transforming real-world images 
 * Optimizations: AMP (mixed precision), gradient clipping, spectral normalization
 
 ## Project Structure
+```text
 GAN-Image-Style-Tranfer/
 ├── Trial models                 # The complete set of trial models
 ├── Final Model                  # The final CycleGAN model
 ├── README.md                    # Project documentation
 └── LICENSE                      # License file
+```
+
+## License
+**This project is for academic use only**
