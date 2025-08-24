@@ -6,18 +6,18 @@ This project explores artistic style transfer by transforming real-world images 
 
 ## Features
 * Unpaired Image-to-Image Translation using CycleGAN.
-* Monet-style Artistic Transfer from real photos
-* Bidirectional Translation – Monet -> Photo and Photo -> Monet
-* Multiple Model Versions (V1–V7) with architectural and training variations
-* Evaluation Metrics: FID and MiFID for generative quality & memorization bias
-*  Optimizations: Mixed Precision Training, Gradient Penalty, Perceptual Loss (VGG16)
+* Monet-style Artistic Transfer from real photos.
+* Bidirectional Translation – Monet -> Photo and Photo -> Monet.
+* Multiple Model Versions (V1–V7) with architectural and training variations.
+* Evaluation Metrics: FID and MiFID for generative quality & memorization bias.
+*  Optimizations: Mixed Precision Training, Gradient Penalty, Perceptual Loss (VGG16).
 
 ## Tech Stack
-* Frameworks: PyTorch, PyTorch Lightning
-* GAN Model: CycleGAN (Generators + Discriminators with cycle consistency loss)
-* Image Processing: Torchvision, Pillow, NumPy
-* Evaluation: Fréchet Inception Distance (FID), Memorization-informed FID (MiFID)
-* Optimizations: AMP (mixed precision), gradient clipping, spectral normalization
+* Frameworks: PyTorch, PyTorch Lightning.
+* GAN Model: CycleGAN (Generators + Discriminators with cycle consistency loss).
+* Image Processing: Torchvision, Pillow, NumPy.
+* Evaluation: Fréchet Inception Distance (FID), Memorization-informed FID (MiFID).
+* Optimizations: AMP (mixed precision), gradient clipping, spectral normalization.
 
 ## Project Structure
 ```text
@@ -29,4 +29,4 @@ GAN-Image-Style-Tranfer/
 ```
 
 ## License
-**This project is for academic use only**
+**This project is for academic use only.**
